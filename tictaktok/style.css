@@ -1,0 +1,65 @@
+
+body{
+    background-color: bisque;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.but{
+    height: 150px;
+    width: 150px;
+    border-radius: 1rem;
+    border: none;
+    gap : 2px;
+    background-color: rgb(84, 101, 123);
+    position: relative; 
+    top: 0;
+    box-shadow: 0 0 5px rgba(0, 0,0, 0.3);
+    font-size: 100px;
+    color: black;
+}
+
+#game{ 
+    display: flex;
+    flex-wrap: wrap; /* Allows grid-like wrapping */
+    justify-content: center;
+    gap: 10px; /* Adds spacing between grid items */
+    width: 500px;
+    margin: 0 auto; /* Horizontal centering */    
+}
+
+
+#container{
+    text-align: center;
+    justify-content: center;
+}
+#re{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius:12cm;
+    font-size: large;
+
+}
+#hel{
+    text-align: center;
+    padding-top: 100px;
+}
+#winner{
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+#head{
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(68, 183, 215);
+}
+.hide2{
+    display: none;
+}
